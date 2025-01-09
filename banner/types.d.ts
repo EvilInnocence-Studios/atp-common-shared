@@ -7,6 +7,9 @@ export declare interface IBanner {
     title: string;
     description: string;
     url: string;
+    link: string;
+    activeFrom: string;
+    activeTo: string;
     buttonText?: string;
     buttonLocation?: string;
 }
