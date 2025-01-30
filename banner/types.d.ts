@@ -12,6 +12,8 @@ export declare interface IBanner {
     activeTo: string;
     buttonText?: string;
     buttonLocation?: string;
+    buttonTextAlt?: string;
+    buttonLocationAlt?: string;
 }
 
 export type NewBanner = NewObj<IBanner>;
