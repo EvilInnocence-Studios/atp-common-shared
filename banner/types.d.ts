@@ -10,9 +10,13 @@ export declare interface IBanner {
     link: string;
     activeFrom: string;
     activeTo: string;
+
     buttonText?: string;
+    buttonLink?: string;
     buttonLocation?: string;
+
     buttonTextAlt?: string;
+    buttonLinkAlt?: string;
     buttonLocationAlt?: string;
 }
 
