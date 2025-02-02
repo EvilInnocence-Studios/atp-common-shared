@@ -1,7 +1,7 @@
 import { NewObj } from "../../core-shared/express/types";
 
 export declare interface ISynonym {
-    id: number;
+    id: string;
     canonical: string;
     synonym: string;
 }

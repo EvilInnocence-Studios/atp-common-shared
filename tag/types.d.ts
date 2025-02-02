@@ -1,12 +1,12 @@
 export declare interface ITagGroup {
-    id: number;
+    id: string;
     name: string;
 }
 
 export type NewTagGroup = Omit<ITagGroup, "id">;
 
 export declare interface ITag {
-    id: number;
+    id: string;
     name: string;
-    groupId: number;
+    groupId: string;
 }

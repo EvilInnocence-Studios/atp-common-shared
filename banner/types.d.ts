@@ -1,7 +1,7 @@
 import { NewObj } from "../../core-shared/express/types";
 
 export declare interface IBanner {
-    id: number;
+    id: string;
     tag: string;
     name: string;
     title: string;
