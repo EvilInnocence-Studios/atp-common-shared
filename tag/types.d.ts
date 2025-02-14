@@ -10,4 +10,5 @@ export declare interface ITag {
     id: string;
     name: string;
     groupId: string;
+    filterable: boolean;
 }
