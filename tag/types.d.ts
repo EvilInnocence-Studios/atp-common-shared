@@ -2,6 +2,7 @@ export declare interface ITagGroup {
     id: string;
     name: string;
     filterable: boolean;
+    order: number;
 }
 
 export type NewTagGroup = Omit<ITagGroup, "id">;
