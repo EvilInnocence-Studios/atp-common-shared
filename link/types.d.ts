@@ -4,7 +4,7 @@ export declare interface ILink {
     id: string;
     text: string;
     url: string;
-    subMenuId: string | null;
+    subMenuKey: string  | null;
     order: number;
 }
 
