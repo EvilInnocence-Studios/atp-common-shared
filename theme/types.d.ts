@@ -1,3 +1,4 @@
+import { ILayoutComponent } from "@theming/lib/layout/layout";
 import { NewObj } from "../../core-shared/express/types";
 
 export declare interface ITheme {
@@ -5,7 +6,7 @@ export declare interface ITheme {
     name: string;
     description: string;
     imageUrl: string;
-    json: string;
+    json: ILayoutComponent | null;
 }
 
 export type NewTheme = NewObj<ITheme>;
