@@ -1,4 +1,4 @@
-import { ILayoutComponent, ITheme as IThemeDef } from "@core/lib/layout/layout";
+import { ILayoutComponent, ITheme as IThemeDef, IThemeSerialized as IThemeDefSerialized } from "@theming/lib/layout/layout";
 import { NewObj } from "../../core-shared/express/types";
 
 export declare interface ITheme {
@@ -7,6 +7,15 @@ export declare interface ITheme {
     description: string;
     imageUrl: string | null;
     json: IThemeDef | null;
+    enabled: boolean;
+}
+
+export declare interface IThemeSerialized {
+    name: string;
+    description: string;
+    imageUrl: string | null;
+    imageData: ArrayBuffer | null;
+    json: IThemeDefSerialized | null;
     enabled: boolean;
 }
 
