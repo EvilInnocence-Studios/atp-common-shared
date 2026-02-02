@@ -14,7 +14,6 @@ export declare interface IThemeSerialized {
     name: string;
     description: string;
     imageUrl: string | null;
-    imageData: ArrayBuffer | null;
     json: IThemeDefSerialized | null;
     enabled: boolean;
 }
