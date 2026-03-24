@@ -1,4 +1,5 @@
 import { NewObj } from "@core-shared/express/types";
+import { ILayoutComponent } from "@theming/lib/layout/layout";
 
 export declare interface IContent {
     id: string;
