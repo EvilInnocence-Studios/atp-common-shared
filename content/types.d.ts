@@ -7,7 +7,7 @@ export declare interface IContent {
     title?: string;
     type: "page" | "snippet";
     content: string;
-    layout: ILayoutComponent;
+    layout: ILayoutComponent | null;
     format: "markdown" | "layout";
     enabled: boolean;
     publishDate?: Date;
