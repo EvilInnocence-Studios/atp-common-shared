@@ -5,7 +5,7 @@ export declare interface IContent {
     id: string;
     slug: string;
     title?: string;
-    type: "page" | "snippet";
+    type: "page" | "post";
     content: string;
     layout: ILayoutComponent | null;
     format: "markdown" | "layout";
